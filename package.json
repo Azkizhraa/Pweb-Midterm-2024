@@ -2,8 +2,14 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite"
+        "build": "next build",
+        "dev": "next dev",
+        "start": "next start" // Optional: if you want to run the production build
+    },
+    "dependencies": {
+        "next": "^13.0.0", // Check for the latest version and update as needed
+        "react": "^18.0.0", // Check for the latest version and update as needed
+        "react-dom": "^18.0.0" // Check for the latest version and update as needed
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
