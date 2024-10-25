@@ -4,12 +4,12 @@
     "scripts": {
         "build": "next build",
         "dev": "next dev",
-        "start": "next start" // Optional: if you want to run the production build
+        "start": "next start"
     },
     "dependencies": {
-        "next": "^13.0.0", // Check for the latest version and update as needed
-        "react": "^18.0.0", // Check for the latest version and update as needed
-        "react-dom": "^18.0.0" // Check for the latest version and update as needed
+        "next": "^13.0.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
