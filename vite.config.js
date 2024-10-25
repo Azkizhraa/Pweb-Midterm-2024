@@ -8,4 +8,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'dist', // This ensures Vite outputs to the 'dist' directory
+    },
 });
